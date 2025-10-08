@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E3 Bread</title>
+	<style>
+		body {
+			background-color: white;
+			padding: 0;
+			margin: 0;
+		}
+		.static {
+			display: flex;
+			justify-content: space-between;
+			position: fixed;
+			background-color: white;
+			top: 0;
+			left: 0;
+			width: 100%;
+		}
+		.logo img {
+			width: 60px;
+			height: auto;
+			margin-left: 50%;
+			margin-top: 20%;
+		}
+		.navbar {
+			text-decoration: none;
+			margin-top: px;
+		}
+		.navbar a {
+			align-items:;
+			text-decoration: none;
+			color: black;
+		}
+		.intro {
+			background-image: linear-gradient(45deg, #ffffff64), url('bg.png');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin-top: 30%;
+			text-align: center;
+			height: 50vh;
+		}
+		.intro h1 {
+			padding-top: 50px;
+		}
+		.intro p {
+			color: rgb(116,79,28);
+			font-size: large;
+		}
+		.intro button {
+			padding: 10px;
+			width: 90%;
+			height: 7%;
+			background-color: rgb(196,131,42);
+			font-weight: bold;
+			border-radius: 8px;
+			padding-bottom: 20px;
+			margin-bottom: 100px;
+		}
+		.about h2 {
+			text-align: center;
+			padding: 10px;
+		}
+		.about p {
+			padding-left: 20px;
+		}
+		.image {
+			background-color: rgb(196,131,42);
+		}
+		.image h3, figcaption {
+			text-align: center;
+		}
+		.image img {
+			width: 100%;
+			height: auto;
+		}
+		.image figcaption {
+			font-size: 100%;
+		}
+		.contact {
+			background-color: white;
+		}
+		.contact h3, p {
+			text-align: center;
+			padding: 0 10px;
+		}
+		.contact input,.footer-form input {
+			padding: 13px;
+			width: 50%;
+			margin-left: 10px;
+			border-radius: 8px 3px 5px 10px;
+		}
+		.contact button,.footer-form button {
+			padding: 13px;
+			border-radius: 0px 0px 5px 10px;
+			background-color: black;
+			color: white;
+		}
+		footer{
+			background-color: #f3a855;
+			height: 50vh
+		}
+		.footer-img{
+			height: 35vh;
+		}
+		.footer-img img{
+			width: 100px;
+			height: auto;
+			margin-left: 35%;
+			margin-top: 20px
+		}
+		hr{
+			margin-left: 20px;
+			margin-right: 20px;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="home" class="static">
+			<div class="logo">
+				<img src="logo.jpg">
+			</div>
+			<div class="navbar">
+				<details>
+					<summary>Navbar	</summary>
+					<ul>
+					<li>	<a href="#home">Home</a>
+					</li>
+					<li>	<a href="#about">About</a>
+					   </li>
+					<li>	<a href="#contact">Contact</a> </li>
+					</div>
+				</div>
+			</details>
+		</header>
+		<main>
+			<div class="intro">
+				<h1>Welcome to E-three Bread</h1>
+				<p>
+					The Home of the finest  Bread and Pure water
+				</p>
+				<button>Order Now</button>
+			</div>
+			<div id="about" class="about">
+				<h2>Baked with your health in mind</h2>
+				<p>
+					Our bakery offers Nigeria soft, delicious bread in various sizes.<br>
+					We are proud to present our products for the enjoyment of your home and family.so, come on over to E-three Bread Bakery and "Discover The Goodness inside".
+				</p>
+			</div>
+			<div class="image">
+				<h3>Featured items</h3>
+				<figure>
+					<img src="jumbo.jpg" alt="">
+					<figcaption>
+						jumbo max
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="big.jpg" alt="">
+					<figcaption>jumbo special</figcaption>
+				</figure>
+				<figure>
+					<img src="si.jpg" alt="">
+					<figcaption>big chop</figcaption>
+				</figure>
+			</div>
+			<div id="contact" class="contact">
+				<h3>Stay in the loop</h3>
+				<p>
+					Get the latest when you sign up for our newsletter.
+				</p>
+				<input type="email" id="email" name="email" placeholder="Email"><button>sign up</button>
+				<p>This form is protected by reCAPTCHA and the google <u>Privacy policy</u> and <u>Terms of Service</u> apply.</p>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-img">
+				<img src="logo.jpg" alt="logo">
+			</div>
+			<div class="footer-form">
+				<hr>
+				<input type="email" name="email" id="email" placeholder="Email"><button>sign up</button>
+			</div>
+		</footer>
+	</body>
+</html>
